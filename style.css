@@ -1,0 +1,33 @@
+/* very interesting task */
+
+body {
+    background-color: black;
+}
+
+span {
+    color: rgba(33, 32, 32, 1);
+}
+
+.icon {
+    margin: 0 0.4em;
+    color: #fdf733;
+}
+
+article {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+span:hover {
+    color: #ea4963;
+}
+
+span:hover~span {
+    color: white;
+}
+
+span:hover+span {
+    color: #fd7d93;
+}
